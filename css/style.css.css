@@ -1,0 +1,206 @@
+body{
+    font-family: 'Jost', sans-serif;
+    background-image: url(../img/Design\ sem\ nome\ \(1\).png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: rgba(240, 128, 128, 0.827);
+    margin: 0px;
+}
+#header{
+    font-size: x-large; 
+}
+
+.menu{
+    height: 60px;
+    margin: 0;
+    font-size: 20px;
+    background-attachment: fixed;
+    padding-top: 50px;
+
+}
+
+.menu ul{
+    list-style: none;
+    padding-top: 17px;
+    text-align: center;
+    letter-spacing: 50px;
+    
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:rgb(214, 116, 116);
+    transition: color .3s linear;
+}
+.menu a:hover{
+    color:aliceblue
+}
+.menu li{
+    list-style-type: none;
+    display: inline;
+   
+    
+}
+
+.content{
+    margin-top: 200px;   
+    margin-right: 500px;
+    text-align:left;
+    color: rgb(255, 246, 246);
+    padding-left: 20px;
+    padding-top: 15px;
+    background-color: rgba(205, 92, 92, 0.584);
+
+}   
+    
+.content input{
+    margin-left: 1100px;
+    background:rgba(205, 92, 92, 0.584);
+    color: white;
+    border-radius: 5px;
+    border: aliceblue;
+    height: 50px;
+    width: 200px;
+    transition: color .3s linear;  
+}
+
+.content input:hover{
+    color:rgb(103, 35, 35);
+}
+   
+.content-about{
+    margin-top: 200px;
+    background-color: aliceblue;
+    background-size: 100%;
+    padding: 20px;
+    font-size: 20px;
+
+}
+.content-about p{
+    line-height: 1,5;
+    letter-spacing: 1,0;
+    text-align: center;
+    color: rgb(224, 126, 126);
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+.content-about h1{
+    color:rgb(214, 116, 116);
+    text-align: center;
+}
+
+.complemento{
+    text-align: center;
+}
+.complemento h1{
+    color:rgb(214, 116, 116);
+    text-align: center;
+    padding-top: 30px;
+}
+
+.complemento img{
+    border-radius: 100%;
+    
+}
+
+.complemento p{
+    color: aliceblue;
+    
+}
+.complemento:hover p{
+    -moz-transition: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transition-property: all;
+    transition-delay: 0,5s;
+    color: rgb(214, 116, 116);
+}
+
+.content-table{
+    padding: 50px;
+    margin-top: 200px;
+    background-size: 100%;
+    padding: 20px;
+    font-size: 20px;
+    background-image: url(../img/aliceblue.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content-table h1{
+    color:#d67474;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.content-table p{
+    text-decoration: none;
+    text-align: center;
+    color: indianred;
+    padding-top: 30px;
+    font-family: 'Jost', sans-serif;
+}
+.content-table tr{
+    color:aliceblue; 
+    border: 4px;
+}
+.content-table td{
+    background-color:rgba(205, 92, 92, 0.584) ;
+}
+
+.content-table form{
+    padding-top: 50px;
+   text-align: center;
+
+    
+}
+.content-table form h1{
+    color:rgb(214, 116, 116);
+    text-align: center;
+}
+.content-table form label{
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+    color: indianred;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.content-table form button{
+    color: indianred;
+    margin-left: 0px;
+}
+    
+.arrow-top{
+    text-decoration: none;
+    position: fixed;
+    color: aliceblue;
+    background-color: #d67474;
+    padding: 20px;
+    right: 15px;
+    bottom: 20px;
+
+    
+}
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.footer h1{
+    color:rgb(214, 116, 116);
+   
+}
+.footer p{
+    color: indianred;
+    
+}
+
+
+
+    
